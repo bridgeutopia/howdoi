@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    howdoi (0.0.2)
+    howdoi-rb (0.0.1)
       nokogiri (>= 1.5.6)
 
 GEM
@@ -9,10 +9,12 @@ GEM
   specs:
     minitest (2.5.1)
     nokogiri (1.5.6)
+    rake (10.0.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  howdoi!
+  howdoi-rb!
   minitest
+  rake

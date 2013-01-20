@@ -12,10 +12,11 @@ class HowDoI
   USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17"
 
   attr :query
+  attr :answer
 
   def initialize(query)
     @query = query
-    p how_do_i(query, pos: 1)
+    @answer = how_do_i(query, pos: 1)
   end
 
   def get_url(url)
